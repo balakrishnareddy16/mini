@@ -1,0 +1,122 @@
+/* MEDIA QUERIES */
+@media (max-width: 1280px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .subject-select {
+    width: 80%;
+  }
+  .box {
+    width: 80%;
+  }
+  .help-form-box {
+    width: 50%;
+  }
+}
+@media (max-width: 614px) {
+  html {
+    font-size: 40%;
+  }
+  .subject-select {
+    width: 90%;
+  }
+  .box {
+    width: 85%;
+  }
+  .help-form-box {
+    width: 60%;
+  }
+}
+@media (max-width: 614px) {
+  html {
+    font-size: 33%;
+  }
+}
+@media (max-width: 428px) {
+  html {
+    font-size: 35%;
+  }
+  .links-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  li.sem-link {
+    text-align: center;
+  }
+  .quick-scroll {
+    font-size: 4rem;
+  }
+  img.sticky {
+    width: 7rem;
+  }
+  .help-form-box {
+    width: 70%;
+  }
+  .overflow {
+    width: 80%;
+    padding: 2rem;
+    font-size: 3.5rem;
+  }
+  .close-icon {
+    font-size: 4rem;
+    transform: translate(30%, -30%);
+  }
+  .logo {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 100%;
+    margin-bottom: 6rem;
+  }
+  .box {
+    grid-template-columns: 1fr;
+    gap: 8rem;
+  }
+  .book-img {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+  .subject-select {
+    padding: 2rem 2rem;
+  }
+  .semester {
+    font-size: 5rem;
+  }
+  .book-name {
+    font-size: 4rem;
+  }
+  li {
+    font-size: 2.5rem;
+  }
+  li:hover:after {
+    transform: scaleX(0.5);
+  }
+  .btn,
+  .btnView {
+    font-size: 3rem;
+  }
+  .book-info {
+    gap: 4rem;
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 26%;
+  }
+  .logo {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 100%;
+    margin-bottom: 6rem;
+  }
+}
